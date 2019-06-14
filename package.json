@@ -4,7 +4,7 @@
   "description": "Indecision App with React",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node server/server.js",
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server"
@@ -19,6 +19,7 @@
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
+    "express": "^4.15.4",
     "live-server": "^1.2.1",
     "node-sass": "^4.5.3",
     "normalize.css": "^7.0.0",
